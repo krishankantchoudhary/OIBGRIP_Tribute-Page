@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+background-color:rgb(98, 59, 128);
+min-height: 100vh;
+border: 10px solid;
+}
+.content{
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.image_container,img{
+    width:300px;
+    height: 320px;
+}
+.top_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: flex-end;
+}
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.top_section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(53, 31, 18);
+    padding-right: 100px;
+    padding-bottom: 100px;
+    }
+.top_section h4{
+    font-size: 30px;
+    text-align: end;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.about_section{
+    margin-top: 50px;
+    
+
+}
+.about_section h2{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+.Award{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
+}
+.topic:hover{
+    text-decoration: underline;
+    cursor: pointer;
+ 
+}
+.list{
+    padding-top: 20px;
+}
+.name_wrapper{
+    height: 40vh;
+}
+#Name{
+    padding-top:-80px;
+    padding-right: 200px;
+    font-style: italic;
+    cursor: pointer;
+    
+}
+#Name:hover{
+    
+    color: rgb(220, 198, 198);
+}
+#Date{
+    padding-right:450px;
+    margin-top:-90px;
+}
+#Date:hover{
+    color:rgb(220, 198, 198);
+}
+
+.footer{
+    margin: 50px 0;
+    
+}
+.footer p{
+    text-align: end;
+    
+
+}
+.End a {
+    font-size:20px;
+    color:black;
+    text-decoration: none;
+    color: white;
+}
+
+.End{
+    background-color: rgb(2, 2, 2);
+    padding: 1px 2px;
+    border-radius: 2rem;
+    /*border:2px solid rgb(44, 193, 188);*/
+    margin-top: 1rem;
+    
+}
+
+
+.End a:hover{
+    color: rgb(222, 204, 204);
+}
